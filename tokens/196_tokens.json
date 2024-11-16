@@ -1,0 +1,79 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "OKB",
+    "decimals": 18,
+    "name": "OKB",
+    "coinKey": "OKB",
+    "logo": "https://assets.coingecko.com/coins/images/4463/standard/WeChat_Image_20220118095654.png?1696505053",
+    "price": null
+  },
+  "0x5A77f1443D16ee5761d310e38b62f77f726bC71c": {
+    "contract": "0x5A77f1443D16ee5761d310e38b62f77f726bC71c",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "WETH",
+    "decimals": 18,
+    "name": "Wrapped Ether",
+    "coinKey": "WETH",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+    "price": null
+  },
+  "0x1E4a5963aBFD975d8c9021ce480b42188849D41d": {
+    "contract": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "USDT",
+    "decimals": 6,
+    "name": "Tether USD",
+    "coinKey": "USDT",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "price": null
+  },
+  "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4": {
+    "contract": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "DAI",
+    "decimals": 18,
+    "name": "Dai Stablecoin",
+    "coinKey": "DAI",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+    "price": null
+  },
+  "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1": {
+    "contract": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "coinKey": "WBTC",
+    "logo": "https://static.debank.com/image/matic_token/logo_url/0x5d49c278340655b56609fdf8976eb0612af3a0c3/679b68abb14c5dddc0c94e60bdf3c419.png",
+    "price": null
+  },
+  "0x74b7F16337b8972027F6196A17a631aC6dE26d22": {
+    "contract": "0x74b7F16337b8972027F6196A17a631aC6dE26d22",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "USDC",
+    "decimals": 6,
+    "name": "USD Coin",
+    "coinKey": "USDC",
+    "logo": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png",
+    "price": null
+  },
+  "0x68286607A1d43602d880D349187c3c48c0fD05E6": {
+    "contract": "0x68286607A1d43602d880D349187c3c48c0fD05E6",
+    "chainId": 196,
+    "balance": "0",
+    "symbol": "QUICK",
+    "decimals": 18,
+    "name": "QuickSwap",
+    "coinKey": "QUICK",
+    "logo": "https://static.debank.com/image/matic_token/logo_url/0xb5c064f955d8e7f38fe0460c556a72987494ee17/841c0b0cfbdf9a82c770fad1aea9022c.png",
+    "price": null
+  }
+}

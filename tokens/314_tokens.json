@@ -1,0 +1,13 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 314,
+    "decimals": 18,
+    "name": "Filecoin",
+    "symbol": "FIL",
+    "logo": "https://assets.rubic.exchange/assets/filecoin/0x0000000000000000000000000000000000000000/logo.png",
+    "coinKey": "filecoin",
+    "balance": "0",
+    "price": null
+  }
+}

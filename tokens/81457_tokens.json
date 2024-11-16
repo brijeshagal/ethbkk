@@ -1,0 +1,134 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "ETH",
+    "decimals": 18,
+    "name": "ETH",
+    "coinKey": "ETH",
+    "logo": "https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880",
+    "price": null
+  },
+  "0x4300000000000000000000000000000000000003": {
+    "contract": "0x4300000000000000000000000000000000000003",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "USDB",
+    "decimals": 18,
+    "name": "USDB",
+    "coinKey": "USDB",
+    "logo": "https://assets.coingecko.com/coins/images/35595/standard/65c67f0ebf2f6a1bd0feb13c_usdb-icon-yellow.png?1709255427",
+    "price": null
+  },
+  "0x4300000000000000000000000000000000000004": {
+    "contract": "0x4300000000000000000000000000000000000004",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "WETH",
+    "decimals": 18,
+    "name": "WETH",
+    "coinKey": "WETH",
+    "logo": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332",
+    "price": null
+  },
+  "0xCa84812E477eE5a96a92328689D8Ce2589aB6FfD": {
+    "contract": "0xCa84812E477eE5a96a92328689D8Ce2589aB6FfD",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "ALIEN",
+    "decimals": 18,
+    "name": "ALIEN",
+    "coinKey": "ALIEN",
+    "logo": "https://storage.googleapis.com/xy-finance-images/token-list/ALIEN.png",
+    "price": null
+  },
+  "0xd43D8aDAC6A4C7d9Aeece7c3151FcA8f23752cf8": {
+    "contract": "0xd43D8aDAC6A4C7d9Aeece7c3151FcA8f23752cf8",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "ANDY",
+    "decimals": 9,
+    "name": "ANDY",
+    "coinKey": "ANDY",
+    "logo": "https://assets.coingecko.com/coins/images/35767/standard/IMG_4753.jpeg?1709825442",
+    "price": null
+  },
+  "0xb9dfCd4CF589bB8090569cb52FaC1b88Dbe4981F": {
+    "contract": "0xb9dfCd4CF589bB8090569cb52FaC1b88Dbe4981F",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "BAG",
+    "decimals": 18,
+    "name": "BAG",
+    "coinKey": "BAG",
+    "logo": "https://assets.coingecko.com/coins/images/35417/standard/BAG-coingecko.png?1709393428",
+    "price": null
+  },
+  "0x5FE8534a6F96cb01261Bd96e98c17C2c1Cab3204": {
+    "contract": "0x5FE8534a6F96cb01261Bd96e98c17C2c1Cab3204",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "BAJA",
+    "decimals": 18,
+    "name": "BAJA",
+    "coinKey": "BAJA",
+    "logo": "https://dd.dexscreener.com/ds-data/tokens/blast/0x5fe8534a6f96cb01261bd96e98c17c2c1cab3204.png?size=lg&key=8ccfbb",
+    "price": null
+  },
+  "0xE4C1fE630b096f19cE8E55a4888e8d8e1e1dd0bF": {
+    "contract": "0xE4C1fE630b096f19cE8E55a4888e8d8e1e1dd0bF",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "BB",
+    "decimals": 18,
+    "name": "BB",
+    "coinKey": "BB",
+    "logo": "https://dd.dexscreener.com/ds-data/tokens/blast/0xe4c1fe630b096f19ce8e55a4888e8d8e1e1dd0bf.png?size=lg&key=c4b5af",
+    "price": null
+  },
+  "0xB582Dc28968c725D2868130752aFa0c13EbF9b1a": {
+    "contract": "0xB582Dc28968c725D2868130752aFa0c13EbF9b1a",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "BEPE",
+    "decimals": 18,
+    "name": "BEPE",
+    "coinKey": "BEPE",
+    "logo": "https://dd.dexscreener.com/ds-data/tokens/blast/0xb582dc28968c725d2868130752afa0c13ebf9b1a.png?size=lg&key=51b6a7",
+    "price": null
+  },
+  "0xA4C7aA67189EC5623121c6C94Ec757DfeD932D4B": {
+    "contract": "0xA4C7aA67189EC5623121c6C94Ec757DfeD932D4B",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "MIA",
+    "decimals": 18,
+    "name": "MIA",
+    "coinKey": "MIA",
+    "logo": "https://assets.coingecko.com/coins/images/35598/standard/mia.jpeg?1709260994",
+    "price": null
+  },
+  "0x42E12D42b3d6C4A74a88A61063856756Ea2DB357": {
+    "contract": "0x42E12D42b3d6C4A74a88A61063856756Ea2DB357",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "ORBIT",
+    "decimals": 18,
+    "name": "ORBIT",
+    "coinKey": "ORBIT",
+    "logo": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F35675%2Fsmall%2Forbit.png%3F1709520496&w=32&q=75",
+    "price": null
+  },
+  "0x67fa2887914fA3729e9EED7630294Fe124f417A0": {
+    "contract": "0x67fa2887914fA3729e9EED7630294Fe124f417A0",
+    "chainId": 81457,
+    "balance": "0",
+    "symbol": "YIELD",
+    "decimals": 18,
+    "name": "YIELD",
+    "coinKey": "YIELD",
+    "logo": "https://dd.dexscreener.com/ds-data/tokens/blast/0x67fa2887914fa3729e9eed7630294fe124f417a0.png?size=lg&key=24479b",
+    "price": null
+  }
+}

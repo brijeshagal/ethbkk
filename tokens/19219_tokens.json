@@ -1,0 +1,353 @@
+{
+  "0x2::sui::SUI": {
+    "contract": "0x2::sui::SUI",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "SUI",
+    "symbol": "SUI",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/sui_17700.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN": {
+    "contract": "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN",
+     "chainId": 19219,
+    "decimals": 6,
+    "name": "wUSDC",
+    "symbol": "wUSDC",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/USDC.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x5d1f47ea69bb0de31c313d7acf89b890dbb8991ea8e03c6c355171f84bb1ba4a::turbos::TURBOS": {
+    "contract": "0x5d1f47ea69bb0de31c313d7acf89b890dbb8991ea8e03c6c355171f84bb1ba4a::turbos::TURBOS",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Turbos",
+    "symbol": "TURBOS",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/TURBOS-1686069831173.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS": {
+    "contract": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Cetus Token",
+    "symbol": "CETUS",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/CETUS-20230601.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc::TOKEN::TOKEN": {
+    "contract": "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc::TOKEN::TOKEN",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Suiswap Token",
+    "symbol": "SSWP",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/SSWP-20230605.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN": {
+    "contract": "0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN": {
+    "contract": "0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN",
+     "chainId": 19219,
+    "decimals": 6,
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "logo": "https://static.coinall.ltd/cdn/web3/currency/token/1718088031349.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xb848cce11ef3a8f62eccea6eb5b35a12c4c2b1ee1af7755d02d7bd6218e8226f::coin::COIN": {
+    "contract": "0xb848cce11ef3a8f62eccea6eb5b35a12c4c2b1ee1af7755d02d7bd6218e8226f::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/WBNB-20220415.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xdbe380b13a6d0f5cdedd58de8f04625263f113b3f9db32b3e1983f49e2841676::coin::COIN": {
+    "contract": "0xdbe380b13a6d0f5cdedd58de8f04625263f113b3f9db32b3e1983f49e2841676::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped Matic",
+    "symbol": "WMATIC",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/WMATIC-a909697b39a04bdd87fe8952586f8ce1-20220719.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN": {
+    "contract": "0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/WBTC-20230804.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x1e8b532cca6569cab9f9b9ebc73f8c13885012ade714729aa3b450e0339ac766::coin::COIN": {
+    "contract": "0x1e8b532cca6569cab9f9b9ebc73f8c13885012ade714729aa3b450e0339ac766::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/AVAX.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x6081300950a4f1e2081580e919c210436a1bed49080502834950d31ee55a2396::coin::COIN": {
+    "contract": "0x6081300950a4f1e2081580e919c210436a1bed49080502834950d31ee55a2396::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped Fantom",
+    "symbol": "WFTM",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/FTM-20220328.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xb7844e289a8410e50fb3ca48d69eb9cf29e27d223ef90353fe1bd8e27ff8f3f8::coin::COIN": {
+    "contract": "0xb7844e289a8410e50fb3ca48d69eb9cf29e27d223ef90353fe1bd8e27ff8f3f8::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped SOL",
+    "symbol": "SOL",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/wSOL-5ec7c7f4bddc47c9812bd7649009b862-20220719.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK": {
+    "contract": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Bucket USD",
+    "symbol": "BUCK",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/1712064228150.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xbde4ba4c2e274a60ce15c1cfff9e5c42e41654ac8b6d906a57efa4bd3c29f47d::hasui::HASUI": {
+    "contract": "0xbde4ba4c2e274a60ce15c1cfff9e5c42e41654ac8b6d906a57efa4bd3c29f47d::hasui::HASUI",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "haSUI",
+    "symbol": "haSUI",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/784-0xbde4ba4c2e274a60ce15c1cfff9e5c42e41654ac8b6d906a57efa4bd3c29f47d::hasui::HASUI.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xf325ce1300e8dac124071d3152c5c5ee6174914f8bc2161e88329cf579246efc::afsui::AFSUI": {
+    "contract": "0xf325ce1300e8dac124071d3152c5c5ee6174914f8bc2161e88329cf579246efc::afsui::AFSUI",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "afSUI",
+    "symbol": "AFSUI",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/default-logo/token_custom_logo_default_A.png/type=default_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT": {
+    "contract": "0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Volo Staked SUI",
+    "symbol": "vSUI",
+    "logo": "https://static.coinall.ltd/cdn/web3/currency/token/sui-vsui-0x549e8b69270defbfafd4f94e17ec44cdbdd99820b33bda2278dea3b9a32d3f55::cert::CERT.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX": {
+    "contract": "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "NAVX Token",
+    "symbol": "NAVX",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/784-0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::NAVX.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP": {
+    "contract": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+     "chainId": 19219,
+    "decimals": 6,
+    "name": "DeepBook Token",
+    "symbol": "DEEP",
+    "logo": "https://static.coinall.ltd/cdn/web3/currency/token/1729145058452.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xa8816d3a6e3136e86bc2873b1f94a15cadc8af2703c075f2d546c2ae367f4df9::ocean::OCEAN": {
+    "contract": "0xa8816d3a6e3136e86bc2873b1f94a15cadc8af2703c075f2d546c2ae367f4df9::ocean::OCEAN",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Ocean Token",
+    "symbol": "OCEAN",
+    "logo": "https://static.coinall.ltd/cdn/web3/currency/token/1716860789649.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC": {
+    "contract": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+     "chainId": 19219,
+    "decimals": 6,
+    "name": "USDC",
+    "symbol": "USDC",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/784-0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC-98.png/type=default_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH": {
+    "contract": "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "ETH by Sui Bridge",
+    "symbol": "ETH",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/784-0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH-98.png/type=default_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x27792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN": {
+    "contract": "0x27792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0x37fb148ec0dcab8af1fe3f15fe64fc03ed1851ba/6b8fe1ed14e0ff53b457d3df4e624da3.png",
+    "coinKey": "WBTC",
+    "balance": "0",
+    "price": null
+  },
+  "0xa198f3be41cda8c07b3bf3fee02263526e535d682499806979a111e88a5a8d0f::coin::COIN": {
+    "contract": "0xa198f3be41cda8c07b3bf3fee02263526e535d682499806979a111e88a5a8d0f::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Celo native asset",
+    "symbol": "CELO",
+    "logo": "https://static.debank.com/image/op_token/logo_url/0x9b88d293b7a791e40d36a39765ffd5a1b9b5c349/3fbffe3a7e223a95e74f9cd746155f9a.png",
+    "coinKey": "CELO",
+    "balance": "0",
+    "price": null
+  },
+  "0x66f87084e49c38f76502d17f87d17f943f183bb94117561eb573e075fdc5ff75::coin::COIN": {
+    "contract": "0x66f87084e49c38f76502d17f87d17f943f183bb94117561eb573e075fdc5ff75::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped GLMR",
+    "symbol": "WGLMR",
+    "logo": "https://static.debank.com/image/mobm_token/logo_url/0xacc15dc74880c9944775448304b263d191c6077f/a8442077d76b258297181c3e6eb8c9cc.png",
+    "coinKey": "WGLMR",
+    "balance": "0",
+    "price": null
+  },
+  "0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN": {
+    "contract": "0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "USD Coin",
+    "symbol": "USDCsol",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0x41f7b8b9b897276b7aae926a9016935280b44e97/cebdd996dd1b6ea6c0537c6f773cd31b.png",
+    "coinKey": "USDCsol",
+    "balance": "0",
+    "price": null
+  },
+  "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN": {
+    "contract": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "USD Coin",
+    "symbol": "USDCbnb",
+    "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20650.png",
+    "coinKey": "USDCbnb",
+    "balance": "0",
+    "price": null
+  },
+  "0xdb9ed08481f9dd565fd36b834eb3c2cda1ee5f388048154807cffcb0267ed3b2::coin::COIN": {
+    "contract": "0xdb9ed08481f9dd565fd36b834eb3c2cda1ee5f388048154807cffcb0267ed3b2::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "USD Coin",
+    "symbol": "USDCpol",
+    "logo": "https://assets.coingecko.com/coins/images/22945/thumb/USDCpo_wh_small.png",
+    "coinKey": "USDCpol",
+    "balance": "0",
+    "price": null
+  },
+  "0xe32d3ebafa42e6011b87ef1087bbc6053b499bf6f095807b9013aff5a6ecd7bb::coin::COIN": {
+    "contract": "0xe32d3ebafa42e6011b87ef1087bbc6053b499bf6f095807b9013aff5a6ecd7bb::coin::COIN",
+     "chainId": 19219,
+    "decimals": 8,
+    "name": "Wrapped USDC on Arbitrum",
+    "symbol": "USDCarb",
+    "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/20650.png",
+    "coinKey": "USDCarb",
+    "balance": "0",
+    "price": null
+  },
+  "0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS": {
+    "contract": "0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "Cetus Token",
+    "symbol": "CETUS",
+    "logo": "https://uxcdefo3r2uemooidt2kk2stykakvwd2m6nasg5lhbfaxemm4i3a.arweave.net/pcQyFduOqEY5yBz0pWpTwoCq2HpnmgkbqzhKC5GM4jY",
+    "coinKey": "cetus-protocol",
+    "balance": "0",
+    "price": null
+  },
+  "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE": {
+    "contract": "0xd9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f::smove::SMOVE",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "MOVE",
+    "symbol": "MOVE",
+    "logo": "https://bluemove.net/BlueMove_main_logo_RGB-Blue_512.png",
+    "coinKey": "MOVE",
+    "balance": "0",
+    "price": null
+  },
+  "0x31348f17429e6b37ed269cc667cc83947ff8c54593dcbd1a56cae06a895a38be::fratt::FRATT": {
+    "contract": "0x31348f17429e6b37ed269cc667cc83947ff8c54593dcbd1a56cae06a895a38be::fratt::FRATT",
+     "chainId": 19219,
+    "decimals": 2,
+    "name": "FroggnRatt",
+    "symbol": "FRATT",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/784-0x31348f17429e6b37ed269cc667cc83947ff8c54593dcbd1a56cae06a895a38be::fratt::FRATT-98.png/type=default_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19::suia_token::SUIA_TOKEN": {
+    "contract": "0x1d58e26e85fbf9ee8596872686da75544342487f95b1773be3c9a49ab1061b19::suia_token::SUIA_TOKEN",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "SUIA",
+    "symbol": "SUIA",
+    "logo": "https://bafkreia2vfy4zap6plymncr37eeywxbno6zzfcchnrvrlys3rgbimx5w5a.ipfs.nftstorage.link/",
+    "coinKey": "SUIA",
+    "balance": "0",
+    "price": null
+  },
+  "0xe4239cd951f6c53d9c41e25270d80d31f925ad1655e5ba5b543843d4a66975ee::SUIP::SUIP": {
+    "contract": "0xe4239cd951f6c53d9c41e25270d80d31f925ad1655e5ba5b543843d4a66975ee::SUIP::SUIP",
+     "chainId": 19219,
+    "decimals": 9,
+    "name": "SuiPad",
+    "symbol": "SUIP",
+    "logo": "https://static.debank.com/image/bsc_token/logo_url/0x2fd3100dade79aa2419d0ac4596dcadf4b158da8/71bf0a0b63060a5b618ae9a223488f68.png",
+    "coinKey": "SUIP",
+    "balance": "0",
+    "price": null
+  }
+}

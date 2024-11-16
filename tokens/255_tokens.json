@@ -1,0 +1,134 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "ETH",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x0000000000000000000000000000000000000000/logo.png",
+    "coinKey": "ethereum",
+    "balance": "0",
+    "price": null
+  },
+  "0x4200000000000000000000000000000000000001": {
+    "contract": "0x4200000000000000000000000000000000000001",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x4200000000000000000000000000000000000001/logo.png",
+    "coinKey": "WETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522": {
+    "contract": "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+    "chainId": 255,
+    "decimals": 6,
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x0257e4d92c00c9efcca1d641b224d7d09cfa4522/logo.png",
+    "coinKey": "USDC",
+    "balance": "0",
+    "price": null
+  },
+  "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0": {
+    "contract": "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+    "chainId": 255,
+    "decimals": 6,
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x0cf7c2a584988871b654bd79f96899e4cd6c41c0/logo.png",
+    "coinKey": "USDT",
+    "balance": "0",
+    "price": null
+  },
+  "0x57B5284BA55A1170b4D3e5C0d4fA22baC893B291": {
+    "contract": "0x57B5284BA55A1170b4D3e5C0d4fA22baC893B291",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "izumi Token",
+    "symbol": "iZi",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x57b5284ba55a1170b4d3e5c0d4fa22bac893b291/logo.png",
+    "coinKey": "iZi",
+    "balance": "0",
+    "price": null
+  },
+  "0x3720b1Dc2c8dde3BD6cfCf0b593D0A2bBCAc856e": {
+    "contract": "0x3720b1Dc2c8dde3BD6cfCf0b593D0A2bBCAc856e",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "WEMIX.e",
+    "symbol": "WEMIX.e",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x3720b1dc2c8dde3bd6cfcf0b593d0a2bbcac856e/logo.png",
+    "coinKey": "WEMIX.e",
+    "balance": "0",
+    "price": null
+  },
+  "0xA5c7992710A94A2ef2e8E910b441bD70385DBAB8": {
+    "contract": "0xA5c7992710A94A2ef2e8E910b441bD70385DBAB8",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "Kroma Staked WEMIX.e",
+    "symbol": "stWEMIX.e",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0xa5c7992710a94a2ef2e8e910b441bd70385dbab8/logo.png",
+    "coinKey": "stWEMIX.e",
+    "balance": "0",
+    "price": null
+  },
+  "0xc32A507d29903eAd6D74A1fC1b8dCB8df37B8D73": {
+    "contract": "0xc32A507d29903eAd6D74A1fC1b8dCB8df37B8D73",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0xc32a507d29903ead6d74a1fc1b8dcb8df37b8d73/logo.png",
+    "coinKey": "DAI",
+    "balance": "0",
+    "price": null
+  },
+  "0x2104E3BD1cC8551EeC0c7ad10dE13da29136B19C": {
+    "contract": "0x2104E3BD1cC8551EeC0c7ad10dE13da29136B19C",
+    "chainId": 255,
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x2104e3bd1cc8551eec0c7ad10de13da29136b19c/logo.png",
+    "coinKey": "WBTC",
+    "balance": "0",
+    "price": null
+  },
+  "0xE775281B378C7a6d35ed62F8eF15618604f061f5": {
+    "contract": "0xE775281B378C7a6d35ed62F8eF15618604f061f5",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "SouniToken",
+    "symbol": "SON",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0xe775281b378c7a6d35ed62f8ef15618604f061f5/logo.png",
+    "coinKey": "SON",
+    "balance": "0",
+    "price": null
+  },
+  "0x61e0D34b5206Fa8005EC1De8000df9B9dDee23Db": {
+    "contract": "0x61e0D34b5206Fa8005EC1De8000df9B9dDee23Db",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "Spectrum Staked ETH",
+    "symbol": "spETH",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0x61e0d34b5206fa8005ec1de8000df9b9ddee23db/logo.png",
+    "coinKey": "spETH",
+    "balance": "0",
+    "price": null
+  },
+  "0xfDF68008ec2ec321c0db050EB5FfcAf25Fab3df8": {
+    "contract": "0xfDF68008ec2ec321c0db050EB5FfcAf25Fab3df8",
+    "chainId": 255,
+    "decimals": 18,
+    "name": "ZapankiSwap",
+    "symbol": "ZAP",
+    "logo": "https://assets.rubic.exchange/assets/kroma/0xfdf68008ec2ec321c0db050eb5ffcaf25fab3df8/logo.png",
+    "coinKey": "ZAP",
+    "balance": "0",
+    "price": null
+  }
+}

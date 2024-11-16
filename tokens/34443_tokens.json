@@ -1,0 +1,629 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "ETH",
+    "symbol": "ETH",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x4200000000000000000000000000000000000006": {
+    "contract": "0x4200000000000000000000000000000000000006",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "WETH",
+    "symbol": "WETH",
+    "logo": "https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xd988097fb8612cc24eeC14542bC03424c656005f": {
+    "contract": "0xd988097fb8612cc24eeC14542bC03424c656005f",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xf0F161fDA2712DB8b566946122a5af183995e2eD": {
+    "contract": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "USDT",
+    "symbol": "USDT",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x18470019bF0E94611f15852F7e93cf5D65BC34CA": {
+    "contract": "0x18470019bF0E94611f15852F7e93cf5D65BC34CA",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic",
+    "symbol": "ION",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x18470019bf0e94611f15852f7e93cf5d65bc34ca/c229c7bdfecd00a20109a9c29906c6f0.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xDfc7C877a950e49D2610114102175A06C2e3167a": {
+    "contract": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Mode",
+    "symbol": "MODE",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0xdfc7c877a950e49d2610114102175a06c2e3167a/0df0ff7dc977a206f3909e8bf1222419.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd": {
+    "contract": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "rsETHWrapper",
+    "symbol": "wrsETH",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0xe7903b1f75c534dd8159b313d92cdcfbc62cb3cd/570bd8c5a7c151124d71d35ccbfaaefb.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x00eA4344e90c741560f08667961A8dE39FF506D7": {
+    "contract": "0x00eA4344e90c741560f08667961A8dE39FF506D7",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Dola USD Stablecoin",
+    "symbol": "DOLA",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0x865377367054516e17014ccded1e7d814edc9ce4/0c348eedfa7f89d3db2919e0a18988ea.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x028227c4dd1e5419d11Bb6fa6e661920c519D4F5": {
+    "contract": "0x028227c4dd1e5419d11Bb6fa6e661920c519D4F5",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee/6c02f6b3bcd264d433c3676100ad8da6.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x02CD18c03b5b3f250d2B29C87949CDAB4Ee11488": {
+    "contract": "0x02CD18c03b5b3f250d2B29C87949CDAB4Ee11488",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "Ironclad USDT",
+    "symbol": "ironUSDT",
+    "balance": "0",
+    "price": null
+  },
+  "0x02f92800F57BCD74066F5709F1Daa1A4302Df875": {
+    "contract": "0x02f92800F57BCD74066F5709F1Daa1A4302Df875",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Peapods",
+    "symbol": "PEAS",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x02f92800f57bcd74066f5709f1daa1a4302df875/fcb3a0e5341b75c069ca01f8172b27db.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x083E519E76fe7e68C15A6163279eAAf87E2addAE": {
+    "contract": "0x083E519E76fe7e68C15A6163279eAAf87E2addAE",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ironclad variable debt bearing wrsETH",
+    "symbol": "variableDebtWrsETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A": {
+    "contract": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Wrapped eETH",
+    "symbol": "weETH.mode",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee/6c02f6b3bcd264d433c3676100ad8da6.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x12D8CE035c5DE3Ce39B1fDD4C1d5a745EAbA3b8C": {
+    "contract": "0x12D8CE035c5DE3Ce39B1fDD4C1d5a745EAbA3b8C",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ankr Staked ETH",
+    "symbol": "ankrETH",
+    "logo": "https://static.debank.com/image/ftm_token/logo_url/0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c/943011b2bba8d1d0a9c815caee4baf84.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x9a9072302B775FfBd3Db79a7766E75Cf82bcaC0A": {
+    "contract": "0x9a9072302B775FfBd3Db79a7766E75Cf82bcaC0A",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic Wrapped eETH",
+    "symbol": "ionweETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x19F245782b1258cf3e11Eda25784A378cC18c108": {
+    "contract": "0x19F245782b1258cf3e11Eda25784A378cC18c108",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic Merlin BTC",
+    "symbol": "ionM-BTC",
+    "balance": "0",
+    "price": null
+  },
+  "0x4D850FE01F07BEd416558A34dbde88bA60aE19BE": {
+    "contract": "0x4D850FE01F07BEd416558A34dbde88bA60aE19BE",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "KIM Escrowed Token",
+    "symbol": "xKIM",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x6863fb62ed27a9ddf458105b507c15b5d741d62e/19c545c9df24e510055a2088ea0f611d.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x609aEfb9FB2Ee8f2FDAd5dc48efb8fA4EE0e80fB": {
+    "contract": "0x609aEfb9FB2Ee8f2FDAd5dc48efb8fA4EE0e80fB",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "nextWETH",
+    "symbol": "nextWETH",
+    "logo": "https://static.debank.com/image/arb_token/logo_url/0x2983bf5c334743aa6657ad70a55041d720d225db/2fa8c0a9b87c16e76f1b4141b482913a.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x2dE57F6432Ac67A99aF5aB17017005048AE7A24C": {
+    "contract": "0x2dE57F6432Ac67A99aF5aB17017005048AE7A24C",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Stone aggregator",
+    "symbol": "Stone-agg",
+    "balance": "0",
+    "price": null
+  },
+  "0x4186BFC76E2E237523CBC30FD220FE055156b41F": {
+    "contract": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "KelpDao Restaked ETH",
+    "symbol": "rsETH",
+    "logo": "https://static.debank.com/image/blast_token/logo_url/0xe7903b1f75c534dd8159b313d92cdcfbc62cb3cd/570bd8c5a7c151124d71d35ccbfaaefb.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x80137510979822322193FC997d400D5A6C747bf7": {
+    "contract": "0x80137510979822322193FC997d400D5A6C747bf7",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "StakeStone Ether",
+    "symbol": "STONE",
+    "logo": "https://static.debank.com/image/manta_token/logo_url/0x80137510979822322193fc997d400d5a6c747bf7/459d9fa5e0183355044954fe46dff73a.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x58538e6A46E07434d7E7375Bc268D3cb839C0133": {
+    "contract": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "ENA",
+    "symbol": "ENA",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x58538e6a46e07434d7e7375bc268d3cb839c0133/20d567bc301b43d0d2131731f7ac4736.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x6863fb62Ed27A9DdF458105B507C15b5d741d62e": {
+    "contract": "0x6863fb62Ed27A9DdF458105B507C15b5d741d62e",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "KIM Token",
+    "symbol": "KIM",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x6863fb62ed27a9ddf458105b507c15b5d741d62e/19c545c9df24e510055a2088ea0f611d.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x959FA710CCBb22c7Ce1e59Da82A247e686629310": {
+    "contract": "0x959FA710CCBb22c7Ce1e59Da82A247e686629310",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic StakeStone Ether",
+    "symbol": "ionSTONE",
+    "balance": "0",
+    "price": null
+  },
+  "0xa30c1544d12309a519A205A486f6AF0515dFA442": {
+    "contract": "0xa30c1544d12309a519A205A486f6AF0515dFA442",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Mitosis weETH",
+    "symbol": "miweETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x2BE717340023C9e14C1Bb12cb3ecBcfd3c3fB038": {
+    "contract": "0x2BE717340023C9e14C1Bb12cb3ecBcfd3c3fB038",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "Ionic USD Coin",
+    "symbol": "ionUSDC",
+    "balance": "0",
+    "price": null
+  },
+  "0x5A7a183B6B44Dc4EC2E3d2eF43F98C5152b1d76d": {
+    "contract": "0x5A7a183B6B44Dc4EC2E3d2eF43F98C5152b1d76d",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "InceptionLRT restaked ETH",
+    "symbol": "inETH",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x5a7a183b6b44dc4ec2e3d2ef43f98c5152b1d76d/f473ffeaf1aee62d99bd8d83944cbc49.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x9E0d7D79735e1c63333128149c7b616a0dC0bBDb": {
+    "contract": "0x9E0d7D79735e1c63333128149c7b616a0dC0bBDb",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Pirex Ether OFT",
+    "symbol": "pxETH",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x9e0d7d79735e1c63333128149c7b616a0dc0bbdb/a0c84bcfbf54740c74043e2080ef2e3f.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xA0D844742B4abbbc43d8931a6Edb00C56325aA18": {
+    "contract": "0xA0D844742B4abbbc43d8931a6Edb00C56325aA18",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic Wrapped eETH",
+    "symbol": "ionweETH.mode",
+    "balance": "0",
+    "price": null
+  },
+  "0x49950319aBE7CE5c3A6C90698381b45989C99b46": {
+    "contract": "0x49950319aBE7CE5c3A6C90698381b45989C99b46",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic rsETHWrapper",
+    "symbol": "ionwrsETH",
+    "balance": "0",
+    "price": null
+  },
+  "0xDb8eE6D1114021A94A045956BBeeCF35d13a30F2": {
+    "contract": "0xDb8eE6D1114021A94A045956BBeeCF35d13a30F2",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic Wrapped Ether - Mode Native Market",
+    "symbol": "ionWETH.modenative",
+    "balance": "0",
+    "price": null
+  },
+  "0xd70254C3baD29504789714A7c69d60Ec1127375C": {
+    "contract": "0xd70254C3baD29504789714A7c69d60Ec1127375C",
+    "chainId": 34443,
+    "decimals": 8,
+    "name": "Ionic Wrapped Bitcoin",
+    "symbol": "ionWBTC",
+    "balance": "0",
+    "price": null
+  },
+  "0x59e710215d45F584f44c0FEe83DA6d43D762D857": {
+    "contract": "0x59e710215d45F584f44c0FEe83DA6d43D762D857",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x967f594f73930A02817DAF3112CCC7F2C611dEF8": {
+    "contract": "0x967f594f73930A02817DAF3112CCC7F2C611dEF8",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "lpusdc",
+    "symbol": "lpusdc",
+    "balance": "0",
+    "price": null
+  },
+  "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF": {
+    "contract": "0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF",
+    "chainId": 34443,
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/d3c52e7c7449afa8bd4fad1c93f50d93.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xd60DD6981Ec336fDa40820f8cA5E99CD17dD25A0": {
+    "contract": "0xd60DD6981Ec336fDa40820f8cA5E99CD17dD25A0",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Renzo aggregator",
+    "symbol": "Renzo-agg",
+    "balance": "0",
+    "price": null
+  },
+  "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+    "contract": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "USDe",
+    "symbol": "USDe",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/734064e545eabfc501b9d0e752644b7d.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x71ef7EDa2Be775E5A7aa8afD02C45F059833e9d2": {
+    "contract": "0x71ef7EDa2Be775E5A7aa8afD02C45F059833e9d2",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic Wrapped Ether",
+    "symbol": "ionWETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+    "contract": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0x2416092f143378750bb29b79ed961ab195cceea5/a66d77b85dfd99539744bc62966e1fac.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x59889b7021243dB5B1e065385F918316cD90D46c": {
+    "contract": "0x59889b7021243dB5B1e065385F918316cD90D46c",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Merlin BTC",
+    "symbol": "M-BTC",
+    "logo": "https://static.debank.com/image/merlin_token/logo_url/0xb880fd278198bd590252621d4cd071b1842e9bcd/ef8e2efb7606de9fb88463282c0cbef0.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x94812F2eEa03A49869f95e1b5868C6f3206ee3D3": {
+    "contract": "0x94812F2eEa03A49869f95e1b5868C6f3206ee3D3",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "Ionic Tether USD",
+    "symbol": "ionUSDT",
+    "balance": "0",
+    "price": null
+  },
+  "0xF419234b27D0EFb71D93D522804dF370A4107Be1": {
+    "contract": "0xF419234b27D0EFb71D93D522804dF370A4107Be1",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "STONE Carnival LP (cSTONE)",
+    "symbol": "cSTONE",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0xf419234b27d0efb71d93d522804df370a4107be1/6078a23b67bace00704161d6ab6bec1c.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xe855B8018C22A05F84724e93693caf166912aDD5": {
+    "contract": "0xe855B8018C22A05F84724e93693caf166912aDD5",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "LayerBank ETH",
+    "symbol": "lETH",
+    "balance": "0",
+    "price": null
+  },
+  "0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB": {
+    "contract": "0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Swap Mode",
+    "symbol": "SMD",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0xfda619b6d20975be80a10332cd39b9a4b0faa8bb/2c5b6e2e011880370599eae8e6445eaf.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x4341620757Bee7EB4553912FaFC963e59C949147": {
+    "contract": "0x4341620757Bee7EB4553912FaFC963e59C949147",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ionic Mode Token - Mode Native Market",
+    "symbol": "ionMODE.modenative",
+    "balance": "0",
+    "price": null
+  },
+  "0x5A32d48411387577c26a15775cf939494dA8064A": {
+    "contract": "0x5A32d48411387577c26a15775cf939494dA8064A",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Inception Restaked ankrETH",
+    "symbol": "InankrETH",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0xfa2629b9cf3998d52726994e0fcdb750224d8b9d/c7f883d51e8842a73633a97a015bc2e7.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x00001063a5d3A9d5f1B03e848fa788aae1d98C5c": {
+    "contract": "0x00001063a5d3A9d5f1B03e848fa788aae1d98C5c",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "EURA",
+    "symbol": "EURA",
+    "balance": "0",
+    "price": null
+  },
+  "0xe7334Ad0e325139329E747cF2Fc24538dD564987": {
+    "contract": "0xe7334Ad0e325139329E747cF2Fc24538dD564987",
+    "chainId": 34443,
+    "decimals": 6,
+    "name": "Ironclad USDC",
+    "symbol": "ironUSDC",
+    "balance": "0",
+    "price": null
+  },
+  "0xB25d0932F2d9FFC4aE602256f123839c23C2785F": {
+    "contract": "0xB25d0932F2d9FFC4aE602256f123839c23C2785F",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "LogX LPC",
+    "symbol": "LLPC",
+    "balance": "0",
+    "price": null
+  },
+  "0xfd160B6818254AF48171a7731EbA26deE6F16902": {
+    "contract": "0xfd160B6818254AF48171a7731EbA26deE6F16902",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "LayerBank weETH",
+    "symbol": "lweETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x0Cd0F94bBEAd98b6A05773426a783eFE8588A559": {
+    "contract": "0x0Cd0F94bBEAd98b6A05773426a783eFE8588A559",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "SY Renzo ezETH",
+    "symbol": "SY-ezETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x819d1Daa794c1c46B841981b61cC978d95A17b8e": {
+    "contract": "0x819d1Daa794c1c46B841981b61cC978d95A17b8e",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Davos.xyz USD",
+    "symbol": "DUSD",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0xa48f322f8b3edff967629af79e027628b9dd1298/737edc1c8fd44b8bceda751c1175f3ff.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x356B2eBc41Fcc7A84b59e998231C14317A5e286c": {
+    "contract": "0x356B2eBc41Fcc7A84b59e998231C14317A5e286c",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "SY ether.fi weETH",
+    "symbol": "SY-weETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x95177295A394f2b9B04545FFf58f4aF0673E839d": {
+    "contract": "0x95177295A394f2b9B04545FFf58f4aF0673E839d",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ironclad Token",
+    "symbol": "ICL",
+    "logo": "https://static.debank.com/image/project/logo_url/mode_ironclad/669baa6c6809654784f5e01e20836c50.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x1349e6986084b65708D68A72C8EfCBD7Cf4D3FB2": {
+    "contract": "0x1349e6986084b65708D68A72C8EfCBD7Cf4D3FB2",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "VolatileV2 AMM - ICL/MODE",
+    "symbol": "vAMMV2-ICL/MODE",
+    "balance": "0",
+    "price": null
+  },
+  "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1": {
+    "contract": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Molten",
+    "symbol": "MOLTEN",
+    "logo": "https://static.debank.com/image/molten_token/logo_url/molten/9cb5d5dc7b200ceaa577e0431a731203.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x66eEd5FF1701E6ed8470DC391F05e27B1d0657eb": {
+    "contract": "0x66eEd5FF1701E6ed8470DC391F05e27B1d0657eb",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "BMX",
+    "symbol": "BMX",
+    "logo": "https://static.debank.com/image/base_token/logo_url/0x548f93779fbc992010c07467cbaf329dd5f059b7/9fa3e15df74c53611a7932a018af12a3.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x8b2EeA0999876AAB1E7955fe01A5D261b570452C": {
+    "contract": "0x8b2EeA0999876AAB1E7955fe01A5D261b570452C",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Wrapped BMX Mode Liquidity Token",
+    "symbol": "wMLT",
+    "balance": "0",
+    "price": null
+  },
+  "0x4b3BFcaa4F8BD4A276B81C110640dA634723e64B": {
+    "contract": "0x4b3BFcaa4F8BD4A276B81C110640dA634723e64B",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Mantis LP-WETH",
+    "symbol": "LP-WETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2": {
+    "contract": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Staked USDe",
+    "symbol": "sUSDe",
+    "logo": "https://static.debank.com/image/eth_token/logo_url/0x9d39a5de30e57443bff2a8307a4256c8797a3497/a9969be31b8f85c69b4cdf7b1a6f5dc5.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xd97905cC56030a6E9b618d6e26Cc9Ee2eAA15948": {
+    "contract": "0xd97905cC56030a6E9b618d6e26Cc9Ee2eAA15948",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "LayerBank ezETH",
+    "symbol": "lezETH",
+    "balance": "0",
+    "price": null
+  },
+  "0x5613B76Ed4CF65D771bAa5E68ceA787a8FF43cAD": {
+    "contract": "0x5613B76Ed4CF65D771bAa5E68ceA787a8FF43cAD",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "StableV2 AMM - WETH/STONE",
+    "symbol": "sAMMV2-WETH/STONE",
+    "balance": "0",
+    "price": null
+  },
+  "0xA70266C8F8Cf33647dcFEE763961aFf418D9E1E4": {
+    "contract": "0xA70266C8F8Cf33647dcFEE763961aFf418D9E1E4",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Ironclad USD",
+    "symbol": "iUSD",
+    "logo": "https://static.debank.com/image/mode_token/logo_url/0xa70266c8f8cf33647dcfee763961aff418d9e1e4/0a72a8c067bbac14d6ec663bacec6722.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x5763BA22463ffBef84d5aa1a6Df983420852bED7": {
+    "contract": "0x5763BA22463ffBef84d5aa1a6Df983420852bED7",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "Splice MODE",
+    "symbol": "Splice MODE",
+    "balance": "0",
+    "price": null
+  },
+  "0xCF4664Fd4D0CabFcbbCbD4b6C2Ecb71Ac120d0c3": {
+    "contract": "0xCF4664Fd4D0CabFcbbCbD4b6C2Ecb71Ac120d0c3",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "STEER_ALGEBRA_VAULT_53",
+    "symbol": "STEERAV53",
+    "balance": "0",
+    "price": null
+  },
+  "0x0Fa000CF4018E7A5069437a06F73120DB0b53a90": {
+    "contract": "0x0Fa000CF4018E7A5069437a06F73120DB0b53a90",
+    "chainId": 34443,
+    "decimals": 18,
+    "name": "NetWeave Token",
+    "symbol": "NEW",
+    "balance": "0",
+    "price": null
+  }
+}

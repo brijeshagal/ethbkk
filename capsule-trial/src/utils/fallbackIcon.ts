@@ -1,0 +1,1 @@
+export const FallBackIcon = '/assets/icons/fallback-icon.svg';

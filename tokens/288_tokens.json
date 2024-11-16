@@ -1,0 +1,198 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "ETH",
+    "decimals": 18,
+    "name": "ETH",
+    "coinKey": "ETH",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+    "price": null
+  },
+  "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000": {
+    "contract": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "WETH",
+    "decimals": 18,
+    "name": "Wrapped ETH",
+    "coinKey": "WETH",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000/b1947b38a90e559eb950453965714be4.png",
+    "price": null
+  },
+  "0x66a2A913e447d6b4BF33EFbec43aAeF87890FBbc": {
+    "contract": "0x66a2A913e447d6b4BF33EFbec43aAeF87890FBbc",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "USDC",
+    "decimals": 6,
+    "name": "USD Coin",
+    "coinKey": "USDC",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+    "price": null
+  },
+  "0x5DE1677344D3Cb0D7D465c10b72A8f60699C062d": {
+    "contract": "0x5DE1677344D3Cb0D7D465c10b72A8f60699C062d",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "USDT",
+    "decimals": 6,
+    "name": "USDT",
+    "coinKey": "USDT",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "price": null
+  },
+  "0xf74195Bb8a5cf652411867c5C2C5b8C2a402be35": {
+    "contract": "0xf74195Bb8a5cf652411867c5C2C5b8C2a402be35",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "DAI",
+    "decimals": 18,
+    "name": "DAI Stablecoin",
+    "coinKey": "DAI",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+    "price": null
+  },
+  "0xdc0486f8bf31DF57a952bcd3c1d3e166e3d9eC8b": {
+    "contract": "0xdc0486f8bf31DF57a952bcd3c1d3e166e3d9eC8b",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "name": "WBTC",
+    "coinKey": "WBTC",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+    "price": null
+  },
+  "0x7445Efc8A6F1279434133408BEdeb6Eb4d1537Ab": {
+    "contract": "0x7445Efc8A6F1279434133408BEdeb6Eb4d1537Ab",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "ZENC",
+    "decimals": 18,
+    "name": "Zencha Token",
+    "coinKey": "ZENC",
+    "price": null
+  },
+  "0xc67b9B1B0557aeAfA10AA1fFa1d7c87087a6149E": {
+    "contract": "0xc67b9B1B0557aeAfA10AA1fFa1d7c87087a6149E",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "BANA",
+    "decimals": 18,
+    "name": "Banana",
+    "coinKey": "BANA",
+    "price": null
+  },
+  "0xa18bF3994C0Cc6E3b63ac420308E5383f53120D7": {
+    "contract": "0xa18bF3994C0Cc6E3b63ac420308E5383f53120D7",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "BOBA",
+    "decimals": 18,
+    "name": "Boba Token",
+    "coinKey": "BOBA",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xa18bf3994c0cc6e3b63ac420308e5383f53120d7/402a10db53def2a3647ea3edfba20cb1.png",
+    "price": null
+  },
+  "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73": {
+    "contract": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "FTM",
+    "decimals": 18,
+    "name": "Fantom",
+    "coinKey": "FTM",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73/f0cd86ba8ddb907aabaf5a37a282b971.png",
+    "price": null
+  },
+  "0xe1E2ec9a85C607092668789581251115bCBD20de": {
+    "contract": "0xe1E2ec9a85C607092668789581251115bCBD20de",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "OMG",
+    "decimals": 18,
+    "name": "OMGToken",
+    "coinKey": "OMG",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xe1e2ec9a85c607092668789581251115bcbd20de/7b23a18f080a62c8b62bb1c0a0a8dc99.png",
+    "price": null
+  },
+  "0x922D641a426DcFFaeF11680e5358F34d97d112E1": {
+    "contract": "0x922D641a426DcFFaeF11680e5358F34d97d112E1",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "name": "Matic",
+    "coinKey": "MATIC",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0x922d641a426dcffaef11680e5358f34d97d112e1/367bd099d7f8fc0c3e9c792730f411fc.png",
+    "price": null
+  },
+  "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f": {
+    "contract": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "name": "Avalanche",
+    "coinKey": "AVAX",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xfa9343c3897324496a05fc75abed6bac29f8a40f/e195cdd89f44bf3d0c65d38ce2c6c662.png",
+    "price": null
+  },
+  "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b": {
+    "contract": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "BNB",
+    "decimals": 18,
+    "name": "Binance",
+    "coinKey": "BNB",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b/118a23beef33c9550d09d394e34e50d4.png",
+    "price": null
+  },
+  "0xC85C1ce70C4Bf751a73793D735e9D0209152F13d": {
+    "contract": "0xC85C1ce70C4Bf751a73793D735e9D0209152F13d",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "QI(old)",
+    "decimals": 18,
+    "name": "QiDao",
+    "coinKey": "QI(old)",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xc85c1ce70c4bf751a73793d735e9d0209152f13d/c0524dfb9be687e8e26191eed8774fd3.png",
+    "price": null
+  },
+  "0x96419929d7949D6A801A6909c145C8EEf6A40431": {
+    "contract": "0x96419929d7949D6A801A6909c145C8EEf6A40431",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "nETH",
+    "decimals": 18,
+    "name": "nETH",
+    "coinKey": "nETH",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0x96419929d7949d6a801a6909c145c8eef6a40431/1fc6698f634693d1e354bbff3795bab1.png",
+    "price": null
+  },
+  "0xe48703F5AdfE59d271D951c2E602F654B86736E7": {
+    "contract": "0xe48703F5AdfE59d271D951c2E602F654B86736E7",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "GIN",
+    "decimals": 18,
+    "name": "Gin Finance",
+    "coinKey": "GIN",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0xe48703f5adfe59d271d951c2e602f654b86736e7/5c36f8ddd55cbdfa273a30c4b43dbc8d.png",
+    "price": null
+  },
+  "0x6B4712AE9797C199edd44F897cA09BC57628a1CF": {
+    "contract": "0x6B4712AE9797C199edd44F897cA09BC57628a1CF",
+    "chainId": 288,
+    "balance": "0",
+    "symbol": "nUSD",
+    "decimals": 18,
+    "name": "nUSD",
+    "coinKey": "nUSD",
+    "logo": "https://static.debank.com/image/boba_token/logo_url/0x6b4712ae9797c199edd44f897ca09bc57628a1cf/748e42edf4b11c77103b8ea52e775583.png",
+    "price": null
+  }
+}

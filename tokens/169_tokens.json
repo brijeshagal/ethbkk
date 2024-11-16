@@ -1,0 +1,52 @@
+{
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "name": "Ethereum",
+    "chainId": 169,
+    "symbol": "ETH",
+    "decimals": 18,
+    "logo": "https://assets.unmarshal.io/tokens/manta_0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5": {
+    "contract": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+    "chainId": 169,
+    "name": "Manta",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "logo": "https://icons.llamao.fi/icons/chains/rsz_manta.jpg",
+    "balance": "0",
+    "price": null
+  },
+  "0xb73603C5d87fA094B7314C74ACE2e64D165016fb": {
+    "contract": "0xb73603C5d87fA094B7314C74ACE2e64D165016fb",
+    "name": "USD Coin",
+    "chainId": 169,
+    "symbol": "USDC",
+    "decimals": 6,
+    "logo": "https://assets.unmarshal.io/tokens/manta_0xb73603C5d87fA094B7314C74ACE2e64D165016fb.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xEc901DA9c68E90798BbBb74c11406A32A70652C3": {
+    "contract": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+    "name": "StakeStone Ether",
+    "chainId": 169,
+    "symbol": "STONE",
+    "decimals": 18,
+    "logo": "https://assets.unmarshal.io/tokens/manta_0xEc901DA9c68E90798BbBb74c11406A32A70652C3.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xf417F5A458eC102B90352F697D6e2Ac3A3d2851f": {
+    "contract": "0xf417F5A458eC102B90352F697D6e2Ac3A3d2851f",
+    "name": "Tether USD",
+    "chainId": 169,
+    "symbol": "USDT",
+    "decimals": 6,
+    "logo": "https://assets.unmarshal.io/tokens/matic_0xc2132D05D31c914a87C6611C10748AEb04B58e8F.png",
+    "balance": "0",
+    "price": null
+  }
+}

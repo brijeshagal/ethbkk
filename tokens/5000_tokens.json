@@ -1,0 +1,92 @@
+{
+  "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9": {
+    "contract": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+    "chainId": 5000,
+    "decimals": 6,
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/USDC.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x0000000000000000000000000000000000000000": {
+    "contract": "0x0000000000000000000000000000000000000000",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "Mantle",
+    "symbol": "MNT",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/mnt_20100.png",
+    "balance": "0",
+    "price": null
+  },
+  "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111": {
+    "contract": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "Ether",
+    "symbol": "WETH",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE": {
+    "contract": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+    "chainId": 5000,
+    "decimals": 6,
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "logo": "https://static.coinall.ltd/cdn/web3/currency/token/1718088031349.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8": {
+    "contract": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "Wrapped Mantle",
+    "symbol": "WMNT",
+    "logo": "https://static.coinall.ltd/cdn/wallet/logo/WMNT-1692119363118.png",
+    "balance": "0",
+    "price": null
+  },
+  "0x779f4E5fB773E17Bc8E809F4ef1aBb140861159a": {
+    "contract": "0x779f4E5fB773E17Bc8E809F4ef1aBb140861159a",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "KTX Community Token",
+    "symbol": "KTC",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/1707711091940.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x2Fde62942759d7C0aaf25952Da4098423bC1264C": {
+    "contract": "0x2Fde62942759d7C0aaf25952Da4098423bC1264C",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "StakeStone Ether",
+    "symbol": "STONE",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/5000-0x2fde62942759d7c0aaf25952da4098423bc1264c-101.png/type=default_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+    "contract": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "USDe",
+    "symbol": "USDe",
+    "logo": "https://static.coinall.ltd/cdn/web3/currency/token/eth-usde-0x4c9edd5852cd905f086c759e8383e09bff1e68b3.png/type=png_350_0",
+    "balance": "0",
+    "price": null
+  },
+  "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2": {
+    "contract": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "chainId": 5000,
+    "decimals": 18,
+    "name": "Staked USDe",
+    "symbol": "sUSDe",
+    "logo": "https://static.oklink.com/cdn/web3/currency/token/5000-0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2-101.png/type=default_350_0",
+    "balance": "0",
+    "price": null
+  }
+}

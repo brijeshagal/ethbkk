@@ -1,0 +1,46 @@
+{
+    "0x000000000000000000000000000000000000aA09": {
+        "contract": "0x000000000000000000000000000000000000aA09",
+        "chainId": 10242,
+        "balance": "0",
+        "symbol": "AA",
+        "decimals": 18,
+        "name": "AA",
+        "coinKey": "AA",
+        "logo": "https://docs.arthera.net/img/logo.svg",
+        "price": null
+    },
+    "0x69D349E2009Af35206EFc3937BaD6817424729F7": {
+        "contract": "0x69D349E2009Af35206EFc3937BaD6817424729F7",
+        "chainId": 10242,
+        "balance": "0",
+        "symbol": "WAA",
+        "decimals": 18,
+        "name": "Wrapped AA",
+        "coinKey": "WAA",
+        "logo": "https://docs.arthera.net/img/logo.svg",
+        "price": null
+    },
+    "0x6C45E28A76977a96e263f84F95912B47F927B687": {
+        "contract": "0x6C45E28A76977a96e263f84F95912B47F927B687",
+        "chainId": 10242,
+        "balance": "0",
+        "symbol": "USDT",
+        "decimals": 6,
+        "name": "Tether USD",
+        "coinKey": "USDT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+        "price": null
+    },
+    "0x8C4aCd74Ff4385f3B7911432FA6787Aa14406f8B": {
+        "contract": "0x8C4aCd74Ff4385f3B7911432FA6787Aa14406f8B",
+        "chainId": 10242,
+        "balance": "0",
+        "symbol": "USDC.e",
+        "decimals": 6,
+        "name": "USDC.e",
+        "coinKey": "USDCe",
+        "logo": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png",
+        "price": null
+    }
+}
