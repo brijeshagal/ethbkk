@@ -49,7 +49,7 @@ const Tokens = ({
 
   return (
     isFetched && (
-      <div className="w-full h-full rounded flex flex-col">
+      <div className="w-full h-full rounded-lg flex flex-col gap-4 border p-3">
         <div className="flex w-full px-4 py-2">
           <div>Select Token</div>
           <button className="ml-auto" onClick={closeTokenList}>
@@ -69,14 +69,14 @@ const Tokens = ({
             );
             return (
               <button
-                className="flex justify-between px-4 py-2 rounded hover:bg-gray-700 w-full"
+                className="flex justify-between px-4 py-2 rounded hover:bg-gray-500 w-full"
                 key={tokenData.symbol}
                 onClick={() => {
                   setTokenData(tokenData);
                 }}
               >
-                <div className="flex gap-4">
-                  <div>
+                <div className="flex gap-4 h-16">
+                  <div className="flex h-full justify-center items-center">
                     <img
                       loading="lazy"
                       src={tokenData.logo || FallBackIcon} // Use fallback icon if tokenData.logo is null or undefined
@@ -86,7 +86,7 @@ const Tokens = ({
                       }}
                     />
                   </div>
-                  <div className="flex text-white flex-col justify-center w-20 items-center">
+                  <div className="flex text-white flex-col justify-center items-start">
                     <div>{tokenData.name}</div>
                     <div>{tokenData.symbol}</div>
                   </div>

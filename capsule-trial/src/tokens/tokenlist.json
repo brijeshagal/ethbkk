@@ -4253,20 +4253,6 @@
     "balance": "0",
     "symbol": "PEPE"
   },
-  "777": {
-    "addresses": {
-      "1": {
-        "address": "0xEc4e7f297dd7076595A438740a5D18Ac5E28c53d",
-        "decimals": 9,
-        "balance": "0"
-      }
-    },
-    "name": "TheCasinoBetBot",
-    "coinKey": "777",
-    "logo": "https://static.debank.com/image/eth_token/logo_url/0xec4e7f297dd7076595a438740a5d18ac5e28c53d/8e25b0e143dff33f63933be3d5d36be9.png",
-    "balance": "0",
-    "symbol": "777"
-  },
   "XWallet": {
     "addresses": {
       "1": {
@@ -46412,20 +46398,6 @@
     "balance": "0",
     "symbol": "ORDI404"
   },
-  "4096": {
-    "addresses": {
-      "1": {
-        "address": "0x4096Fc7119040175589387656F7C6073265f4096",
-        "decimals": 0,
-        "balance": "0"
-      }
-    },
-    "name": "4096",
-    "coinKey": "4096",
-    "logo": "https://static.debank.com/image/eth_token/logo_url/0x4096fc7119040175589387656f7c6073265f4096/c239c1460d19ea7f7dda8a16431fb539.png",
-    "balance": "0",
-    "symbol": "4096"
-  },
   "YES": {
     "addresses": {
       "1": {
@@ -48051,20 +48023,6 @@
     "logo": "https://static.debank.com/image/eth_token/logo_url/0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f/feb5d4ad57f4b81134deb06c6ad4b09f.png",
     "balance": "0",
     "symbol": "MUST"
-  },
-  "404": {
-    "addresses": {
-      "1": {
-        "address": "0xf66434c34f3644473d91f065bF35225aec9e0Cfd",
-        "decimals": 18,
-        "balance": "0"
-      }
-    },
-    "name": "FOUR",
-    "coinKey": "404",
-    "logo": null,
-    "balance": "0",
-    "symbol": "404"
   },
   "PROM": {
     "addresses": {

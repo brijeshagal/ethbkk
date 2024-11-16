@@ -25,11 +25,12 @@ export default function Home() {
     } else {
       setReceiveTokenData(tokenData);
     }
+    closeTokenList();
   }
 
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="relative w-[600px] h-[400px] rounded-lg p-3 overflow-hidden">
+      <div className="relative w-[450px] h-[450px] rounded-lg p-3 overflow-hidden">
         <div
           className={`${
             showTokensList

@@ -1,6 +1,6 @@
 "use client";
 
-import { orderCowSwap } from "@/service/cowdao/order";
+import { orderCowSwapTester } from "@/service/cowdao/order";
 import { FormEvent, useCallback } from "react";
 import { useAccount } from "wagmi";
 
@@ -11,7 +11,7 @@ export default function QuickStartPage() {
     async (event: FormEvent) => {
       event.preventDefault();
       if (chainId && account) {
-        const res = await orderCowSwap({
+        const res = await orderCowSwapTester({
           account,
           chainId,
           sendToken: "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
