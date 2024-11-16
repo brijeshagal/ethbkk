@@ -6,6 +6,8 @@ import { placeCowSwapOrder } from "@/service/cowdao/order";
 import AllTokens from "@/tokens/tokenlist.json";
 import { HexString } from "@/types/address";
 import { TokenData } from "@/types/tokens";
+import { SwitcherIcon } from "@/utils/fallbackIcon";
+import Image from "next/image";
 import { useState } from "react";
 import { useAccount } from "wagmi";
 
@@ -34,7 +36,7 @@ export default function Home() {
 
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="relative w-[450px] h-[450px] rounded-lg p-3 overflow-hidden">
+      <div className="relative bg-[#70CCE4] w-[450px] h-[450px] rounded-3xl p-3 overflow-hidden">
         <div
           className={`${
             showTokensList
@@ -42,25 +44,27 @@ export default function Home() {
               : "flex flex-col justify-center items-center gap-4 w-full h-full"
           }`}
         >
-          <div className="w-full flex justify-between items-center px-20">
+          <div className="w-full flex justify-center items-center gap-8 px-20">
             <Token
               onClick={() => {
                 setShowTokensList(true);
                 setIsSend(true);
               }}
               tokenData={sendTokenData}
+              isSend={true}
             />
-
+            <Image src={SwitcherIcon} alt="Toggle" width={20} height={20} />
             <Token
               onClick={() => {
                 setShowTokensList(true);
                 setIsSend(false);
               }}
               tokenData={receiveTokenData}
+              isSend={false}
             />
           </div>
           <button
-            className="mx-auto w-3/4 rounded-lg px-4 py-2 border"
+            className="bg-[#FFE939] absolute bottom-12 mx-auto w-[40%] font-semibold text-sm rounded-3xl px-4 py-2"
             type="button"
             onClick={() => {
               placeCowSwapOrder({
@@ -72,7 +76,7 @@ export default function Home() {
               });
             }}
           >
-            LFG
+            Review Transaction
           </button>
         </div>
         <div className={`${showTokensList ? "w-full h-full" : "hidden"}`}>

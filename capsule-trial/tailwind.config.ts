@@ -8,8 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        press: ['"Press Start 2P"'],
+      },
       colors: {
-        primary: '#ff2398',
+        primary: "#ff2398",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
