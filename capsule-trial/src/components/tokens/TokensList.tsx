@@ -40,6 +40,7 @@ const Tokens = ({
       getTokensBalances(account).then((listWithBalances) => {
         const sortedTokensList = sortTokensByBalanceAsObject(listWithBalances);
         setTokensList(sortedTokensList);
+        setTokenData(listWithBalances["WETH"])
         setIsFetched(true);
       });
     } else {
@@ -69,7 +70,7 @@ const Tokens = ({
             );
             return (
               <button
-                className="flex justify-between px-4 py-2 rounded hover:bg-gray-500 w-full"
+                className="flex justify-between px-4 py-2 rounded-lg border w-full"
                 key={tokenData.symbol}
                 onClick={() => {
                   setTokenData(tokenData);
@@ -87,11 +88,11 @@ const Tokens = ({
                     />
                   </div>
                   <div className="flex text-white flex-col justify-center items-start">
-                    <div>{tokenData.name}</div>
+                    <div className="font-bold">{tokenData.name}</div>
                     <div>{tokenData.symbol}</div>
                   </div>
                 </div>
-                {tokenBal > 0 && <div>{tokenBal.toFixed(5)}</div>}
+                {tokenBal > 0 && <div className="w-fit h-fit my-auto">{tokenBal.toFixed(5)}</div>}
               </button>
             );
           })}

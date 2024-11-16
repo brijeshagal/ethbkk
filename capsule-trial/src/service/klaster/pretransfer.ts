@@ -1,30 +1,31 @@
 import { getPublicClient } from "@/client/publicClient";
 import { walletClient } from "@/client/walletClient";
 import { HexString } from "@/types/address";
+import { TokenData } from "@/types/tokens";
 import axios from "axios";
 import {
   buildItx,
   initKlaster,
   klasterNodeHost,
   loadBicoV2Account,
+  PaymentTokenSymbol,
   rawTx,
   singleTx,
 } from "klaster-sdk";
-import {
-  encodeAbiParameters,
-  encodeFunctionData,
-  zeroHash
-} from "viem";
-import { sepolia } from "viem/chains";
+import { encodeAbiParameters, encodeFunctionData, zeroHash } from "viem";
 
 export async function preTransactKlaster({
   gasFeeChainId,
   account,
   amount,
+  sendTokenData,
+  receiveTokenData,
 }: {
   gasFeeChainId: number;
   account: HexString;
   amount: bigint;
+  sendTokenData: TokenData;
+  receiveTokenData: TokenData;
 }) {
   const klaster = await initKlaster({
     accountInitData: loadBicoV2Account({
@@ -32,6 +33,9 @@ export async function preTransactKlaster({
     }),
     nodeUrl: klasterNodeHost.default,
   });
+
+  console.log({ sendTokenData, receiveTokenData });
+
   const factoryData = encodeAbiParameters(
     [
       { name: "owner", type: "address" },
@@ -63,15 +67,16 @@ export async function preTransactKlaster({
         ],
       },
     ],
-    args: ["0xA22042a57270F95169a230b7e766265a67759eBF" as HexString, amount],
+    args: [account, amount],
     functionName: "transfer",
   });
 
-  const sendErc20 = rawTx({
-    gasLimit: 75000n,
-    to: "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14", //WETH on sepolia
-    data: erc20CalldataForExecute,
-  });
+  const sendErc20 = ({ to }: { to: HexString }) =>
+    rawTx({
+      gasLimit: 75000n,
+      to,
+      data: erc20CalldataForExecute,
+    });
 
   const emptyCallData = encodeFunctionData({
     abi: [
@@ -88,7 +93,7 @@ export async function preTransactKlaster({
       },
     ],
     args: [
-      "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      receiveTokenData.addresses[gasFeeChainId].address,
       0n,
       erc20CalldataForExecute,
     ],
@@ -97,10 +102,15 @@ export async function preTransactKlaster({
 
   const iTx = buildItx({
     steps: [
-      singleTx(sepolia.id, sendErc20),
-      // singleTx(arbitrumSepolia.id, sendETH),
+      singleTx(
+        Number(gasFeeChainId),
+        sendErc20({ to: receiveTokenData.addresses[gasFeeChainId].address })
+      ),
     ],
-    feeTx: klaster.encodePaymentFee(gasFeeChainId, "WETH"),
+    feeTx: klaster.encodePaymentFee(
+      gasFeeChainId,
+      sendTokenData.symbol as PaymentTokenSymbol
+    ),
   });
 
   console.log({ iTx });
@@ -110,7 +120,7 @@ export async function preTransactKlaster({
     return {
       callData: emptyCallData,
       callGasLimit: tx.gasLimit.toString(),
-      chainId: sepolia.id.toString(),
+      chainId: gasFeeChainId.toString(),
       value: tx.value?.toString(),
     };
   });
@@ -153,17 +163,26 @@ export async function preTransactKlaster({
         ],
       },
     ],
-    args: [smartWalletAddress as HexString, amount],
+    args: [
+      smartWalletAddress,
+      amount + BigInt(quoteRes.data.paymentInfo.tokenWeiAmount),
+    ],
     functionName: "transfer",
   });
+  console.log("amount", amount);
+  console.log("fee", BigInt(quoteRes.data.paymentInfo.tokenWeiAmount));
+  console.log(
+    "amount+fee",
+    amount + BigInt(quoteRes.data.paymentInfo.tokenWeiAmount)
+  );
   console.log(erc20Calldata);
   console.log(quoteRes.data.itxHash.slice(2));
   console.log({ data: `${erc20Calldata}${quoteRes.data.itxHash.slice(2)}` });
 
   const txnHash = await walletClient(gasFeeChainId).sendTransaction({
     account,
-    to: "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
-    // value: amount,
+    to: sendTokenData.addresses[gasFeeChainId].address,
+    // value: amount, // add in case of native token
     data: `${erc20Calldata}${quoteRes.data.itxHash.slice(2)}`,
   });
 

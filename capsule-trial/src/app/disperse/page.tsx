@@ -2,10 +2,6 @@
 
 import CapsuleButton from "@/components/capsule/CapsuleButton";
 import { initializeKlaster } from "@/service/klaster/basic";
-import { preTransactKlaster } from "@/service/klaster/pretransfer";
-import { HexString } from "@/types/address";
-import { parseEther } from "viem";
-import { sepolia } from "viem/chains";
 import { useAccount } from "wagmi";
 
 export default function Disperse() {
@@ -24,11 +20,11 @@ export default function Disperse() {
       <button
         disabled={!account}
         onClick={() => {
-          preTransactKlaster({
-            account: account as HexString,
-            amount: parseEther("0.01"),
-            gasFeeChainId: sepolia.id,
-          });
+          // preTransactKlaster({
+          //   account: account as HexString,
+          //   amount: parseEther("0.01"),
+          //   gasFeeChainId: sepolia.id,
+          // });
         }}
       >
         Disperse from EOA

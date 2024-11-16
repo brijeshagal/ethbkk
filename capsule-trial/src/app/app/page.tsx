@@ -2,20 +2,22 @@
 
 import Token from "@/components/token/Token";
 import TokensList from "@/components/tokens/TokensList";
-import { placeCowSwapOrder } from "@/service/cowdao/order";
+import { preTransactKlaster } from "@/service/klaster/pretransfer";
 import AllTokens from "@/tokens/tokenlist.json";
 import { HexString } from "@/types/address";
 import { TokenData } from "@/types/tokens";
 import { SwitcherIcon } from "@/utils/fallbackIcon";
 import Image from "next/image";
 import { useState } from "react";
+import { parseUnits } from "viem";
 import { useAccount } from "wagmi";
 
 export default function Home() {
   const { address: account, chainId } = useAccount();
+  const [amount, setAmount] = useState<string>("");
   const [showTokensList, setShowTokensList] = useState(false);
   const [sendTokenData, setSendTokenData] = useState<TokenData>(
-    AllTokens["USDT"] as TokenData
+    AllTokens["WETH"] as TokenData
   );
   const [receiveTokenData, setReceiveTokenData] = useState<TokenData>(
     AllTokens["USDC"] as TokenData
@@ -37,7 +39,10 @@ export default function Home() {
   return (
     <div className="w-full flex justify-center items-center">
       <div className="relative bg-[#70CCE4] w-[450px] h-[450px] rounded-3xl p-3 overflow-hidden">
-        <div
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
           className={`${
             showTokensList
               ? "hidden"
@@ -63,22 +68,38 @@ export default function Home() {
               isSend={false}
             />
           </div>
-          <button
-            className="bg-[#FFE939] absolute bottom-12 mx-auto w-[40%] font-semibold text-sm rounded-3xl px-4 py-2"
-            type="button"
-            onClick={() => {
-              placeCowSwapOrder({
-                account: account as HexString,
-                receiveTokenData,
-                sendTokenData,
-                totalAmount: "1",
-                currChainId: chainId as number,
-              });
+          <input
+            className="bg-[#FFE939] focus:outline-none text-center absolute bottom-12 mx-auto w-[40%] font-semibold text-sm rounded-3xl px-4 py-2"
+            type="text"
+            onChange={(e) => {
+              setAmount(e.target.value);
             }}
-          >
-            Review Transaction
-          </button>
-        </div>
+            onKeyDown={(e) => {
+              console.log("here");
+              if (e.key === "Enter") {
+                e.preventDefault();
+                // placeCowSwapOrder({
+                //   account: account as HexString,
+                //   receiveTokenData,
+                //   sendTokenData,
+                //   totalAmount: "1",
+                //   currChainId: chainId as number,
+                // });
+                preTransactKlaster({
+                  account: account as HexString,
+                  amount: parseUnits(
+                    amount,
+                    Object.values(sendTokenData.addresses)[0].decimals
+                  ),
+                  gasFeeChainId: chainId as number,
+                  sendTokenData,
+                  receiveTokenData,
+                });
+              }
+            }}
+            placeholder={"Enter Input"}
+          />
+        </form>
         <div className={`${showTokensList ? "w-full h-full" : "hidden"}`}>
           <TokensList
             closeTokenList={closeTokenList}

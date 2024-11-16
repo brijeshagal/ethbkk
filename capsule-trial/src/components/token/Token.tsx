@@ -36,7 +36,7 @@ const Token = ({
                       BigInt(tokenData.balance),
                       Object.values(tokenData.addresses)[0].decimals || 18
                     )
-                  ).toFixed(3)
+                  ).toFixed(4)
                 : 0}
             </div>
           </div>
