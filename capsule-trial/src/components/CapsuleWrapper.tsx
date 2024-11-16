@@ -13,7 +13,10 @@ import {
   arbitrum,
   arbitrumSepolia,
   base,
+  gnosis,
+  mainnet,
   optimism,
+  polygon,
   scroll,
   sepolia,
 } from "wagmi/chains";
@@ -31,7 +34,7 @@ export const CapsuleWrapper = ({
         config={{
           projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_API as string,
           appName: "Your App Name",
-          chains: [arbitrumSepolia, sepolia, arbitrum, optimism, scroll, base],
+          chains: [arbitrumSepolia, sepolia, arbitrum, optimism, scroll, base, gnosis, mainnet, polygon],
           wallets: [
             metaMaskWallet,
             rainbowWallet,

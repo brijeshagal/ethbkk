@@ -86,7 +86,7 @@ async function processOrderForChain(
   });
 
   const provider = new ethers.providers.Web3Provider(window.ethereum);
-  const signer = await provider.getSigner();
+  const signer = provider.getSigner();
 
   const quoteRequest: OrderQuoteRequest = {
     sellToken: sendToken,

@@ -56,6 +56,8 @@ chain_ids = [
     534352,
     137,
     5000,
-    10
+    10,
+    100,
+    8453
 ]  # Replace with the chain IDs you want to process
 combine_token_data(chain_ids)

@@ -2,11 +2,15 @@
 
 import Token from "@/components/token/Token";
 import TokensList from "@/components/tokens/TokensList";
+import { placeCowSwapOrder } from "@/service/cowdao/order";
 import AllTokens from "@/tokens/tokenlist.json";
+import { HexString } from "@/types/address";
 import { TokenData } from "@/types/tokens";
 import { useState } from "react";
+import { useAccount } from "wagmi";
 
 export default function Home() {
+  const { address: account } = useAccount();
   const [showTokensList, setShowTokensList] = useState(false);
   const [sendTokenData, setSendTokenData] = useState<TokenData>(
     AllTokens["WETH"] as TokenData
@@ -58,7 +62,14 @@ export default function Home() {
           <button
             className="mx-auto w-3/4 rounded-lg px-4 py-2 border"
             type="button"
-            onClick={() => {}}
+            onClick={() => {
+              placeCowSwapOrder({
+                account: account as HexString,
+                receiveTokenData,
+                sendTokenData,
+                totalAmount: "0.000001",
+              });
+            }}
           >
             LFG
           </button>
