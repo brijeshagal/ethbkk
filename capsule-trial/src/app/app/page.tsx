@@ -10,10 +10,10 @@ import { useState } from "react";
 import { useAccount } from "wagmi";
 
 export default function Home() {
-  const { address: account } = useAccount();
+  const { address: account, chainId } = useAccount();
   const [showTokensList, setShowTokensList] = useState(false);
   const [sendTokenData, setSendTokenData] = useState<TokenData>(
-    AllTokens["WETH"] as TokenData
+    AllTokens["USDT"] as TokenData
   );
   const [receiveTokenData, setReceiveTokenData] = useState<TokenData>(
     AllTokens["USDC"] as TokenData
@@ -67,7 +67,8 @@ export default function Home() {
                 account: account as HexString,
                 receiveTokenData,
                 sendTokenData,
-                totalAmount: "0.000001",
+                totalAmount: "1",
+                currChainId: chainId as number,
               });
             }}
           >

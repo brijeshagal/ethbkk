@@ -1,3 +1,4 @@
+import { walletClient } from "@/client/walletClient";
 import { HexString } from "@/types/address";
 import { TokenData } from "@/types/tokens";
 import {
@@ -139,19 +140,24 @@ export async function placeCowSwapOrder({
   sendTokenData,
   receiveTokenData,
   totalAmount,
+  currChainId,
 }: {
   account: HexString;
   receiveTokenData: TokenData;
   sendTokenData: TokenData;
   totalAmount: string;
+  currChainId: number;
 }) {
+  let connectedChainId = currChainId;
   let remainingAmt = parseUnits(
     totalAmount,
     Object.values(sendTokenData.addresses)[0].decimals // Assume uniform decimals across chains
   );
-
+  console.log(remainingAmt);
   const results = [];
   const chainEntries = Object.entries(sendTokenData.addresses);
+
+  console.log({ sendTokenData, receiveTokenData });
 
   for (const [chainId, chainData] of chainEntries) {
     // Check if receiveToken is available on the current chainId
@@ -159,6 +165,10 @@ export async function placeCowSwapOrder({
       console.warn(
         `Receive token is not available on chainId ${chainId}. Skipping.`
       );
+      continue;
+    }
+    if (BigInt(chainData.balance) === 0n) {
+      console.warn(`Zero balance on chainId ${chainId}. Skipping.`);
       continue;
     }
 
@@ -169,6 +179,10 @@ export async function placeCowSwapOrder({
 
     if (sendAmount > 0n) {
       try {
+        if (connectedChainId !== chainIdNum) {
+          await walletClient(currChainId).switchChain({ id: chainIdNum });
+          connectedChainId = chainIdNum;
+        }
         const result = await processOrderForChain(
           chainIdNum,
           chainData.address,
@@ -188,10 +202,12 @@ export async function placeCowSwapOrder({
         }
       } catch (error) {
         console.error(`Error processing chainId ${chainIdNum}:`, error);
-        results.push({ chainId: chainIdNum, error });
+        break;
+        // results.push({ chainId: chainIdNum, error });
       }
     } else {
       console.log(`No remaining amount for chainId ${chainId}. Skipping.`);
+      break;
     }
   }
 

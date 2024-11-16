@@ -73,7 +73,7 @@ export const multicallForBalance = async (
       let results = {};
 
       while (data.length > 0) {
-        const chunk = data.splice(0, 600);
+        const chunk = data.splice(0, 1000);
         const multiCallResults = (await getPublicClient(chainId).multicall({
           contracts: chunk,
         })) as MulticallResponse[];
