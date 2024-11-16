@@ -3,17 +3,20 @@ import { capsuleClient } from "@/client/capsule";
 import { CapsuleModal, OAuthMethod } from "@usecapsule/react-sdk";
 import "@usecapsule/react-sdk/styles.css";
 import { useState } from "react";
+import { useAccount } from "wagmi";
 
 export default function CapsuleButton() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const { isConnected } = useAccount();
+
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div style={{ textAlign: "center" }}>
       <button
         onClick={() => setIsModalOpen(true)}
         style={{ padding: "10px 20px", fontSize: "16px", cursor: "pointer" }}
       >
-        Open Capsule Modal
+        {isConnected ? "Capsule" : "CONNECT BUTTON"}
       </button>
       <CapsuleModal
         capsule={capsuleClient}

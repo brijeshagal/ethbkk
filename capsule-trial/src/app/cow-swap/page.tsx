@@ -1,6 +1,5 @@
 "use client";
 
-import CapsuleButton from "@/components/capsule/CapsuleButton";
 import { orderCowSwap } from "@/service/cowdao/order";
 import { FormEvent, useCallback } from "react";
 import { useAccount } from "wagmi";
@@ -27,7 +26,6 @@ export default function QuickStartPage() {
   return (
     <div>
       <div className="form">
-        <CapsuleButton />
         <div>
           <button
             onClick={(event) => {

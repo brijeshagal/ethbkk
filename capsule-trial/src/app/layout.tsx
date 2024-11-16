@@ -1,4 +1,5 @@
 import { CapsuleWrapper } from "@/components/CapsuleWrapper";
+import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -14,8 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <CapsuleWrapper>{children}</CapsuleWrapper>
+      <body className="w-screen h-screen overflow-y-scroll">
+        <CapsuleWrapper>
+          <Navbar />
+          {children}
+        </CapsuleWrapper>
       </body>
     </html>
   );

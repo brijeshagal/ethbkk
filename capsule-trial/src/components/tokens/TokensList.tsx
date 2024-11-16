@@ -11,14 +11,20 @@ import { useEffect, useRef, useState } from "react";
 import { formatUnits } from "viem";
 import { useAccount } from "wagmi";
 
-const Tokens = () => {
+const Tokens = ({
+  closeTokenList,
+  setTokenData,
+}: {
+  closeTokenList: () => void;
+  setTokenData: (tokenData: TokenData) => void;
+}) => {
   const { address: account } = useAccount();
 
   const [tokensList, setTokensList] = useState<TokenData[]>(
     Object.values(AllTokens as TokensList)
   );
 
-  const [isFetched, setIsFetched] = useState(false);
+  const [isFetched, setIsFetched] = useState(true);
 
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -30,6 +36,7 @@ const Tokens = () => {
 
   useEffect(() => {
     if (account) {
+      setIsFetched(false);
       getTokensBalances(account).then((listWithBalances) => {
         const sortedTokensList = sortTokensByBalanceAsObject(listWithBalances);
         setTokensList(sortedTokensList);
@@ -42,7 +49,13 @@ const Tokens = () => {
 
   return (
     isFetched && (
-      <div className="md:w-1/3 h-[500px] w-full rounded">
+      <div className="w-full h-full rounded flex flex-col">
+        <div className="flex w-full px-4 py-2">
+          <div>Select Token</div>
+          <button className="ml-auto" onClick={closeTokenList}>
+            X
+          </button>
+        </div>
         <div
           ref={containerRef}
           className="flex flex-col gap-3 p-3 h-full overflow-y-auto"
@@ -58,6 +71,9 @@ const Tokens = () => {
               <button
                 className="flex justify-between px-4 py-2 rounded hover:bg-gray-700 w-full"
                 key={tokenData.symbol}
+                onClick={() => {
+                  setTokenData(tokenData);
+                }}
               >
                 <div className="flex gap-4">
                   <div>
