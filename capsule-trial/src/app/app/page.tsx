@@ -2,6 +2,7 @@
 
 import Token from "@/components/token/Token";
 import TokensList from "@/components/tokens/TokensList";
+import { explorerUrl } from "@/constants/blockscout";
 import { preTransactKlaster } from "@/service/klaster/pretransfer";
 import AllTokens from "@/tokens/tokenlist.json";
 import { HexString } from "@/types/address";
@@ -16,6 +17,7 @@ export default function Home() {
   const { address: account, chainId } = useAccount();
   const [amount, setAmount] = useState<string>("");
   const [showTokensList, setShowTokensList] = useState(false);
+  const [txnHash, setTxnHash] = useState<HexString>();
   const [sendTokenData, setSendTokenData] = useState<TokenData>(
     AllTokens["WETH"] as TokenData
   );
@@ -38,7 +40,7 @@ export default function Home() {
 
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="relative bg-[#70CCE4] w-[450px] h-[450px] rounded-3xl p-3 overflow-hidden">
+      <div className="relative bg-[#70CCE4] w-[450px] h-[420px] rounded-3xl p-3 overflow-hidden">
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -94,6 +96,7 @@ export default function Home() {
                   gasFeeChainId: chainId as number,
                   sendTokenData,
                   receiveTokenData,
+                  setTxnHash,
                 });
               }
             }}
@@ -107,6 +110,16 @@ export default function Home() {
           />
         </div>
       </div>
+      {txnHash && (
+        <div
+          className="mt-12 relative w-[max-content] font-mono 
+before:absolute before:inset-0 before:animate-typewriter before:bg-white 
+after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black"
+        >
+          View your transaction{" "}
+          <a href={`${explorerUrl[chainId as number]}/tx/${txnHash}`}>here</a>
+        </div>
+      )}
     </div>
   );
 }

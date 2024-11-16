@@ -17,11 +17,15 @@ export default function CapsuleButton() {
         onClick={() => setIsModalOpen(true)}
         style={{ padding: "10px 20px", fontSize: "16px", cursor: "pointer" }}
       >
-        {isConnected ? <img src={CapsuleLogo} /> : "CONNECT BUTTON"}
+        {isConnected ? (
+          <img src={CapsuleLogo} width={60} height={60} className="mr-10" />
+        ) : (
+          "CONNECT BUTTON"
+        )}
       </button>
       <CapsuleModal
         capsule={capsuleClient}
-        appName="Capsule Modal Starter Template"
+        appName="Everydae"
         logo={LogoIcon}
         disableEmailLogin={false}
         disablePhoneLogin={false}

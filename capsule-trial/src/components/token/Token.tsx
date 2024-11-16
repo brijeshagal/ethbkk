@@ -13,7 +13,7 @@ const Token = ({
 }) => {
   return (
     <div className="">
-      <div className="animate-bounce absolute top-20 text-2xl font-bold">{isSend ? "Send" : "Receive"}</div>
+      <div className="animate-bounce absolute top-24 text-2xl font-bold">{isSend ? "Send" : "Receive"}</div>
       <button className="w-32 h-24 border rounded p-3" onClick={onClick}>
         <div className="w-full h-full overflow-hidden flex flex-col justify-center items-center gap-2">
           <div className="flex gap-2 justify-center items-center">

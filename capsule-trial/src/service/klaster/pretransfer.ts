@@ -20,12 +20,14 @@ export async function preTransactKlaster({
   amount,
   sendTokenData,
   receiveTokenData,
+  setTxnHash,
 }: {
   gasFeeChainId: number;
   account: HexString;
   amount: bigint;
   sendTokenData: TokenData;
   receiveTokenData: TokenData;
+  setTxnHash: (hash: HexString) => void;
 }) {
   const klaster = await initKlaster({
     accountInitData: loadBicoV2Account({
@@ -193,6 +195,7 @@ export async function preTransactKlaster({
   ).waitForTransactionReceipt({ hash: txnHash });
 
   if (receipt.status === "success") {
+    setTxnHash(txnHash);
     const encodedData = encodeAbiParameters(
       [
         { name: "hash", type: "bytes32" },
